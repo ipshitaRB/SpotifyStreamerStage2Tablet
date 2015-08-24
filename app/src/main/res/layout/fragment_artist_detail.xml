@@ -1,0 +1,21 @@
+<!--<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/artist_detail"
+    style="?android:attr/textAppearanceLarge" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="16dp" android:textIsSelectable="true"
+    tools:context=".ArtistDetailFragment" />-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/artist_detail"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+tools:context=".ArtistDetailFragment">
+
+<ListView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/top_tracks_listview"
+    android:paddingTop="@dimen/single_line_listview_top_padding"
+    android:paddingBottom="@dimen/single_line_listview_bottom_padding"/>
+</FrameLayout>
